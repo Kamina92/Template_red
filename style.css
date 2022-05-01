@@ -32,8 +32,11 @@
 .bg-third{
     background-color: var(--third_color);
     background-repeat: no-repeat;
-    background-size: cover;
-    
+    background-size: cover;   
+}
+
+.bg-white{
+    background-color: white;
 }
 
 .f_nova{
@@ -43,4 +46,25 @@
 .f_raj{
     font-family: 'Rajdhani', sans-serif;
 
+}
+
+.logo{
+    width: 200px;
+    height: 100px;
+}
+
+.nav-text{
+    color: var(--secondary_color);
+    font-size: 20px;
+    padding: 0px 40px;
+    font-weight: 500;
+    color: var(--third_color);
+}
+
+.bg-header{
+    background-image: linear-gradient(180deg,rgba(250,250,250,0.9),rgba(255,255,255,0.4)), url(./media/switzerland-862870_1920.jpg);
+    height: 100vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding:0px;
 }
