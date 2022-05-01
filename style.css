@@ -1,0 +1,46 @@
+:root{
+    --main_color: darkred;
+    --secondary_color: #c67f7f;
+    --third_color: #ececec;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.color_bk{
+    color: black;
+}
+
+.main_color{
+    color:var(--main_color);
+}
+
+.secondary_color{
+    color:var(--secondary_color);
+}
+
+.third_color{
+    color:var(--third_color);
+}
+
+.bg-second{
+    background-color: var(--secondary_color);
+}
+.bg-third{
+    background-color: var(--third_color);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.f_nova{
+    font-family: 'Nova Square', cursive;
+}
+
+.f_raj{
+    font-family: 'Rajdhani', sans-serif;
+
+}
