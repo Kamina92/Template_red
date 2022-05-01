@@ -323,3 +323,7 @@ ul.timeline > li:before {
 .li-footer{
     font-size: 15px;
 }
+
+@media screen and (max-width:576px) {
+    
+}
